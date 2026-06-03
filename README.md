@@ -35,13 +35,16 @@ Implement a Linear Regression model to predict house prices based on house chara
 Dataset: House Prices - Advanced Regression Techniques
 
 Files Used:
+
 - train.csv
 - test.csv
 
 Target Variable:
+
 - SalePrice
 
 Selected Features:
+
 - GrLivArea (Ground Living Area)
 - BedroomAbvGr (Bedrooms Above Ground)
 - FullBath (Full Bathrooms)
@@ -49,8 +52,6 @@ Selected Features:
 ---
 
 ## 🤖 Machine Learning Model
-
-Algorithm Used:
 
 ### Linear Regression
 
@@ -90,19 +91,30 @@ Evaluation Metrics:
 ## 📷 Project Screenshots
 
 ### Model Evaluation Metrics
-![Model Evaluation](screenshots/model_evaluation_metrics.png)
+
+![Model Evaluation](images/model_evaluation_metrics.png)
 
 ### Feature Importance
-![Feature Importance](screenshots/feature_importance.png)
+
+![Feature Importance](images/feature_importance.png)
 
 ### Actual vs Predicted House Prices
-![Prediction Graph](screenshots/actual_vs_predicted_house_prices.png)
+
+![Prediction Graph](images/actual_vs_predicted_house_prices.png)
 
 ---
 
 ## 📁 Project Structure
 
 SCT_ML_1/
+
+├── images/
+
+│   ├── model_evaluation_metrics.png
+
+│   ├── feature_importance.png
+
+│   └── actual_vs_predicted_house_prices.png
 
 ├── train.csv
 
@@ -112,41 +124,53 @@ SCT_ML_1/
 
 ├── house_price_prediction.py
 
-├── requirements.txt
+├── house_price_prediction.png
 
-├── README.md
-
-└── screenshots/
-
-&emsp;&emsp;├── model_evaluation_metrics.png
-
-&emsp;&emsp;├── feature_importance.png
-
-&emsp;&emsp;└── actual_vs_predicted_house_prices.png
+└── README.md
 
 ---
 
 ## 🚀 How to Run
 
-1. Install required libraries
+### Install Required Libraries
 
 ```bash
 pip install pandas numpy matplotlib scikit-learn
 ```
 
-2. Run the project
+### Run the Project
 
 ```bash
 python house_price_prediction.py
 ```
 
-3. View the generated results and graph.
+---
+
+## 📊 Output
+
+The model generates:
+
+- Predicted house prices
+- Model evaluation metrics
+- Feature importance values
+- Actual vs Predicted scatter plot
+
+---
+
+## 📚 Learning Outcomes
+
+- Data Preprocessing
+- Feature Selection
+- Linear Regression
+- Regression Metrics
+- Model Evaluation
+- Data Visualization
 
 ---
 
 ## 🏢 Internship
 
-This project was completed as **Task 01** of the **Machine Learning Internship at SkillCraft Technology**.
+Completed as **Task 01** of the **Machine Learning Internship at SkillCraft Technology**.
 
 ---
 
